@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h1>Gandalf said "You can't pass!"</h1>
+<p>請在方塊中輸入成績:D</p>
+
+<input type="text" id="pass" name="pass">
+<button onclick="noPass()">You can't pass!</button>
+<br><br>
+<output id="result"></output>
+
+<script>
+function noPass() {
+    if (parseInt(document.getElementById("pass").value) > 60){
+       document.getElementById("result").innerHTML = "及格";
+    }
+    else{
+       document.getElementById("result").innerHTML = "不及格";
+    }
+}
+</script>
+
+
+</body>
+</html>

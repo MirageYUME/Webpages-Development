@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h1>網頁計算機</h1>
+<p>請在方塊中輸入數值:D</p>
+
+<input type="number" id="counter1" name="FirstNumber">
+?
+<input type="number" id="counter2" name="LastNumber">
+
+<script>
+function plus() {
+    var x, y;
+    x = parseInt(document.getElementById("counter1").value);
+    y = parseInt(document.getElementById("counter2").value);
+    parseInt(document.getElementById("result").innerHTML = x + y);
+}
+</script>
+
+<script>
+function minus() {
+    var x, y;
+    x = parseInt(document.getElementById("counter1").value);
+    y = parseInt(document.getElementById("counter2").value);
+    parseInt(document.getElementById("result").innerHTML = x - y);
+}
+</script>
+
+<script>
+function equals() {
+    var x, y;
+    x = parseInt(document.getElementById("counter1").value);
+    y = parseInt(document.getElementById("counter2").value);
+    parseInt(document.getElementById("result").innerHTML = x * y);
+}
+</script>
+
+<script>
+function dividedBy() {
+    var x, y;
+    x = parseInt(document.getElementById("counter1").value);
+    y = parseInt(document.getElementById("counter2").value);
+    parseInt(document.getElementById("result").innerHTML = x / y);
+}
+</script>
+
+<script>
+function cleared() {
+    var x, y;
+    x = parseInt(document.getElementById("counter1").value = 0);
+    y = parseInt(document.getElementById("counter2").value = 0);
+    parseInt(document.getElementById("result").innerHTML = "");
+}
+</script>
+
+<output id="result"></output>
+
+<br>
+<br>
+<button onclick="plus()">+</button>　
+<button onclick="minus ()">-</button>　
+<button onclick="equals()">*</button>　
+<button onclick="dividedBy()">/</button>　
+<button onclick="cleared()">C</button>
+
+</body>
+</html>
