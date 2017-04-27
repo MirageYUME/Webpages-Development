@@ -1,0 +1,102 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>MIRAGE</title>
+<style>
+div.container {
+    width: 100%;
+}
+
+nav {
+    float: left;
+    width: 70px;
+    margin-left: 20%;
+    padding: 10%;
+    padding-left: 5%;
+    font-color: #FFFFFF;
+    background-color: #3f3f3f;
+}
+
+nav ul {
+    list-style-type: none;
+    /*list-style-type屬性是用來設定在清單中，每一條之前的記號要用什麼。
+    ．none (沒有)
+    ．disc (全黑圓圈)
+    ．circle (空心圓圈)
+    ．square (正方形)*/
+    padding: 0px;
+}
+
+nav ul a {
+    text-decoration: none;
+    /*text-decoration屬性是用來設定文字上有什麼裝飾。（在此是用來刪除超連結的底線）
+    ．underline: 文字下加上一條線。
+    ．overline: 文字上加上一條線。
+    ．line-through: 文字中間加上一條線劃過去。
+    ．blink: 讓文字閃爍。*/
+}
+
+article {
+    margin-right: 20%;
+    height: 100%;
+    border-left: 1px solid gray;
+    padding: 1em;
+    overflow: hidden;
+    /*overflow 屬性用來定義元素超過某個範圍的時候該如何呈現。
+    ．auto: 預設會自動使用捲軸
+    ．visible: 顯示的文字或圖片會直接超出範圍，不使用捲軸。
+    ．hidden: 自動隱藏超出的文字或圖片。
+    ．scroll: 自動產生捲軸。
+    ．inherit: 繼承自父元素的可見性*/
+    background-color: #FFFFFF;
+}
+
+p{
+    float:left;
+}
+
+img {
+height: auto;
+max-width: 100%;
+}
+
+</style>
+</head>
+
+
+<body style="background-color:#272727">
+
+<div class="container">
+  
+<nav class="navbar navbar-inverse navbar-fixed-top">
+    <img src="Images/01.png" alt="頭貼" width="180"  height="180" style="display:block; margin:auto;"/>
+    <h2 style="color:#FFFFFF">MIRAGE</h2>
+    <ul>
+        <li><a href="Index.html" style="color:white" title="首頁">♦ Home</a></li> 
+        <br>
+        <li><a href="Blog.html" style="color:white" title="網誌">♦ Blog</a></li>
+        <br>
+        <li><a href="Message.html" style="color:white" title="留言板">♦ Message</a></li>
+        <br>
+        <li><a href="About.html" style="color:white" title="關於我">♦ About</a></li>
+    </ul>
+</nav>
+
+<article class="navbar navbar-inverse navbar-fixed-top">
+    <img src="Images/02.jpg" alt="封面圖片" width="720"  height="300" style="display:block; margin:auto;"/>
+    <h2 align="center">關於我</h2>
+    <p><strong>基本資料</strong><br>
+    　姓名：楊雅涵<br>
+    　出生：1997年07月17日<br>
+    　星座：巨蟹座<br>
+    　興趣：文學閱讀與寫作、影劇與音樂賞析、塗鴉<br>
+    　信箱：mirageyume@gmail.com<br><br>
+    <strong>學歷背景</strong><br>
+    　國立臺灣科技大學資訊管理系（2015–至今）<br>
+    　台北市立松山家商國際貿易科（2012–2015）<br></p>
+    <img src="Images/03.jpg" alt="自我介紹" width="220" height="400" style="float:right;"/>   
+</article>
+
+</body>
+</html>

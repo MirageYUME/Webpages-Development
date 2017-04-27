@@ -1,0 +1,97 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>MIRAGE</title>
+<style>
+div.container {
+    width: 100%;
+}
+
+nav {
+    float: left;
+    width: 70px;
+    margin-left: 20%;
+    padding: 10%;
+    padding-left: 5%;
+    font-color: #FFFFFF;
+    background-color: #3f3f3f;
+}
+
+nav ul {
+    list-style-type: none;
+    /*list-style-type屬性是用來設定在清單中，每一條之前的記號要用什麼。
+    ．none (沒有)
+    ．disc (全黑圓圈)
+    ．circle (空心圓圈)
+    ．square (正方形)*/
+    padding: 0px;
+}
+
+nav ul a {
+    text-decoration: none;
+    /*text-decoration屬性是用來設定文字上有什麼裝飾。（在此是用來刪除超連結的底線）
+    ．underline: 文字下加上一條線。
+    ．overline: 文字上加上一條線。
+    ．line-through: 文字中間加上一條線劃過去。
+    ．blink: 讓文字閃爍。*/
+}
+
+article {
+    margin-right: 20%;
+    height: 100%;
+    border-left: 1px solid gray;
+    padding: 1em;
+    overflow: hidden;
+    /*overflow 屬性用來定義元素超過某個範圍的時候該如何呈現。
+    ．auto: 預設會自動使用捲軸
+    ．visible: 顯示的文字或圖片會直接超出範圍，不使用捲軸。
+    ．hidden: 自動隱藏超出的文字或圖片。
+    ．scroll: 自動產生捲軸。
+    ．inherit: 繼承自父元素的可見性*/
+    background-color: #FFFFFF;
+}
+
+article ul{
+    list-style-type: disc;}
+
+article ul a {
+    text-decoration: none;}
+
+img {
+height: auto;
+max-width: 100%;
+}
+
+</style>
+</head>
+
+
+<body style="background-color:#272727">
+
+<div class="container">
+  
+<nav class="navbar navbar-inverse navbar-fixed-top">
+    <img src="Images/01.png" alt="頭貼" width="180"  height="180" style="display:block; margin:auto;"/>
+    <h2 style="color:#FFFFFF">MIRAGE</h2>
+    <ul>
+        <li><a href="Index.html" style="color:white" title="首頁">♦ Home</a></li> 
+        <br>
+        <li><a href="Blog.html" style="color:white" title="網誌">♦ Blog</a></li>
+        <br>
+        <li><a href="Message.html" style="color:white" title="留言板">♦ Message</a></li>
+        <br>
+        <li><a href="About.html" style="color:white" title="關於我">♦ About</a></li>
+    </ul>
+</nav>
+
+<article class="navbar navbar-inverse navbar-fixed-top">
+    <img src="Images/02.jpg" alt="封面圖片" width="720"  height="300" style="display:block; margin:auto;"/>  
+    <h2 align="center">履歷表（February 17,2017）</h2>
+    <p>　　高中時期，因為自己有很強的好奇心，再加上對未來沒有明確的目標，所以就常常參加學校提供的<br>　　實習工作，例如國稅局、富邦銀行和會計師事務所。但到了大學雖然總是心心念念著實習，也常從<br>　　很多管道看到實習的機會，但遲遲沒有付諸行動。因此本學期的目標便是為自己的暑假找一間合適<br>　　的企業實習，下圖為這個寒假製作的履歷表。</p>
+    <img src="Images/04.bmp" alt="履歷表" width="720"  height="1400" style="display:block; margin:auto;"/>  
+
+</article>
+
+</body>
+</html>

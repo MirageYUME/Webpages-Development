@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>MIRAGE</title>
+<style>
+div.container {
+    width: 100%;
+}
+
+nav {
+    float: left;
+    width: 70px;
+    margin-left: 20%;
+    padding: 10%;
+    padding-left: 5%;
+    font-color: #FFFFFF;
+    background-color: #3f3f3f;
+}
+
+nav ul {
+    list-style-type: none;
+    /*list-style-type屬性是用來設定在清單中，每一條之前的記號要用什麼。
+    ．none (沒有)
+    ．disc (全黑圓圈)
+    ．circle (空心圓圈)
+    ．square (正方形)*/
+    padding: 0px;
+}
+
+nav ul a {
+    text-decoration: none;
+    /*text-decoration屬性是用來設定文字上有什麼裝飾。（在此是用來刪除超連結的底線）
+    ．underline: 文字下加上一條線。
+    ．overline: 文字上加上一條線。
+    ．line-through: 文字中間加上一條線劃過去。
+    ．blink: 讓文字閃爍。*/
+}
+
+article {
+    margin-right: 20%;
+    height: 100%;
+    border-left: 1px solid gray;
+    padding: 1em;
+    overflow: hidden;
+    /*overflow 屬性用來定義元素超過某個範圍的時候該如何呈現。
+    ．auto: 預設會自動使用捲軸
+    ．visible: 顯示的文字或圖片會直接超出範圍，不使用捲軸。
+    ．hidden: 自動隱藏超出的文字或圖片。
+    ．scroll: 自動產生捲軸。
+    ．inherit: 繼承自父元素的可見性*/
+    background-color: #FFFFFF;
+}
+
+article ul{
+    list-style-type: disc;}
+
+article ul a {
+    text-decoration: none;}
+
+img {
+height: auto;
+max-width: 100%;
+}
+
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+td, th {
+    border: 1px solid #dddddd;
+    text-align: center;
+    padding: 8px;
+}
+
+
+</style>
+</head>
+
+
+<body style="background-color:#272727">
+
+<div class="container">
+  
+<nav class="navbar navbar-inverse navbar-fixed-top">
+    <img src="Images/01.png" alt="頭貼" width="180"  height="180" style="display:block; margin:auto;"/>
+    <h2 style="color:#FFFFFF">MIRAGE</h2>
+    <ul>
+        <li><a href="Index.html" style="color:white" title="首頁">♦ Home</a></li> 
+        <br>
+        <li><a href="Blog.html" style="color:white" title="網誌">♦ Blog</a></li>
+        <br>
+        <li><a href="Message.html" style="color:white" title="留言板">♦ Message</a></li>
+        <br>
+        <li><a href="About.html" style="color:white" title="關於我">♦ About</a></li>
+    </ul>
+</nav>
+
+<article class="navbar navbar-inverse navbar-fixed-top">
+    <img src="Images/02.jpg" alt="封面圖片" width="720"  height="300" style="display:block; margin:auto;"/>  
+    <h2 align="center">成績評量（March 01,2017）</h2>
+    <p>　➤本學期目標：</p><p></p>
+    <p>　　1.上課不遲到</p><p></p>
+    <p>　　2.做好時間管理，作業不遲交，可以提早準備報告與考試</p><p></p>
+    <p>　　3.學好這學期的所有科目內容</p><p></p>
+    <p>　　4.成績進步</p><p></p>
+
+    <p>　➤下列表格為本學期的各科成績評量方法。</p><p></p>
+    
+    <table>
+        <tr>
+            <td><strong>統計學</strong></td>
+        </tr>
+        <tr>
+            <td>小考: 20%</td>
+        </tr>
+        <tr>
+            <td>第一次期中考: 25%</td>
+        </tr>
+        <tr>
+            <td>第二次期中考: 25%</td>
+        </tr>
+        <tr>
+            <td>期末考: 30%</td>
+        </tr>
+    </table>
+    <br>
+    <table>
+        <tr>
+            <th>行動裝置程式設計</th>
+        </tr>
+        <tr>
+            <td>作業: 70%</td>
+        </tr>
+        <tr>
+            <td>期末專題: 30%</td>
+        </tr>
+    </table>
+    <br>
+    <table>
+        <tr>
+            <th>總體經濟學</th>
+        </tr>
+        <tr>
+            <td>上課發言: 20%</td>
+        </tr>
+        <tr>
+            <td>期中考: 40%</td>
+        </tr>
+        <tr>
+            <td>期末考: 40%</td>
+        </tr>
+    </table>
+    <br>
+    <table>
+        <tr>
+            <th>系統分析與設計</th>
+        </tr>
+        <tr>
+            <td>平時考評: 20% </td>
+        </tr>
+        <tr>
+            <td>平時作業: 20% </td>
+        </tr>
+        <tr>
+            <td>期中考: 30% </td>
+        </tr>
+        <tr>
+            <td>期末專題: 30% </td>
+        </tr>
+    </table>
+    <br>
+    <table>
+        <tr>
+            <th>創業實務</th>
+        </tr>
+        <tr>
+            <td>課堂貢獻: 30% </td>
+        </tr>
+        <tr>
+            <td>平時作業: 30% </td>
+        </tr>
+        <tr>
+            <td>期末報告: 40%</td>
+        </tr>
+    </table>
+    <br>
+    <table>
+        <tr>
+            <th>網頁設計</th>
+        </tr>
+        <tr>
+            <td>分組討論與實作: 30% </td>
+        </tr>
+        <tr>
+            <td>平常出席與日常作業: 40% </td>
+        </tr>
+        <tr>
+            <td>期末作品: 30%</td>
+        </tr>
+    </table>
+    <br>
+    <table>
+        <tr>
+            <th>財務管理</th>
+        </tr>
+        <tr>
+            <td>第一次期中考: 25% </td>
+        </tr>
+        <tr>
+            <td>第二次期中考: 30% </td>
+        </tr>
+        <tr>
+            <td>期末考: 30%</td>
+        </tr>
+        <tr>
+            <td>出席及課堂參與: 15%</td>
+        </tr>
+    </table>
+    <br>
+    <table>
+        <tr>
+            <th>品牌價值創新講座</th>
+        </tr>
+        <tr>
+            <td>出席: 40% </td>
+        </tr>
+        <tr>
+            <td>課前預習單: 10% </td>
+        </tr>
+        <tr>
+            <td>有感的一句話: 20%</td>
+        </tr>
+        <tr>
+            <td>期末報告: 30%</td>
+        </tr>
+        <tr>
+            <td>課堂互動: 加分</td>
+        </tr>
+    </table>
+    <br>
+    <table>
+        <tr>
+            <th>英文商用書信</th>
+        </tr>
+        <tr>
+            <td>期中成績: 40% </td>
+        </tr>
+        <tr>
+            <td>期末成績: 30% </td>
+        </tr>
+        <tr>
+            <td>平時成績: 30%</td>
+        </tr>
+    </table>
+
+</article>
+
+</body>
+</html>

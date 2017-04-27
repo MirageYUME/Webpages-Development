@@ -1,0 +1,86 @@
+/*以下設計參照TEMPLATED*/
+
+/*最新文章的框架設定*/
+ul.style1 {
+    margin: 0 auto;
+    padding: 0;
+    width: 80%;
+    overflow: hidden;
+    list-style: none;
+    text-align: left;
+    color: #6c6c6c}
+
+/*文章與文章間的分隔線設定*/
+ul.style1 li{
+    padding: 1.6em 0em 0em 0em;
+    margin: 0em 0em 2.5em 0em;
+    border-top: 1px solid rgba(0,0,0,.1); }
+
+/*日期位置*/
+ul.style1 li:first-child {
+    border-top: none;}
+
+/*取消超連結藍字*/
+ul.style1 a {
+    display: block;
+    /*display定義元素應生成的框的類型
+    ．none: 此元素不會被顯示。
+    ．block: 此元素將顯示為塊級元素，此元素前後會帶有換行符。
+    ．inline: 默認。此元素會被顯示為內聯元素，元素前後沒有換行符。*/
+    text-decoration: none;
+    color: #2D2D2D;}
+
+/*將滑鼠移到超連結文字時，產生底線*/
+ul.style1 a:hover{
+    text-decoration: underline;}
+    
+ul.style1 h3 {
+    padding: 1em 0em 5px 0em;
+    text-transform: uppercase;
+    /*text-transform屬性是用來控制大小寫是如何展現的。
+    ．capitalize： 每一個字的第一個字母都以大寫顯現，其他的字母則不改變。
+    ．uppercase： 所有的字母都以大寫顯現。
+    ．lowercase： 所有的字母都以小寫顯現。
+    ．none： 大小寫不做任何改變。*/}
+
+/*避免文字不會跑到日期下方*/
+ul.style1 .first {
+    padding-top: 0;
+    background: none;}
+
+/*日期框架設定*/
+ul.style1 .date {
+    float: left;
+    position: relative;
+    width: 80px;
+    height: 70px;
+    margin: 0.5em 1.5em 0em 0.5em;
+    padding: 1.5em 0em 1.5em 0em;
+    box-shadow: 0px 0px 0px 5px rgba(255,255,255,0.1);
+    line-height: normal;
+    text-align: center;
+    text-transform: uppercase;
+    text-shadow: 0px 1px 0px rgba(0,0,0,.2);
+    font-size: 1em;
+    font-weight: 400;
+    border-right: 1px solid rgba(0,0,0,.1); }
+
+/*避免日期點擊後跳回首頁*/ 
+ul.style1 .date:after {
+    content: '';
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 6px;}
+
+/*日期數字設定*/
+ul.style1 .date b {
+    margin: 0;
+    padding: 0;
+    display: block;
+    margin-top: -5px;
+    font-size: 1.8em;
+    font-weight: 700}
